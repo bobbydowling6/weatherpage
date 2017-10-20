@@ -15,8 +15,19 @@ body{
     padding-right: 10%;
     padding-left: 10%;
     margin: 0 auto;
-    background-color: white;
+    background-color: cover;
     color: black;
-    opacity: 0.8;
     text-align: center;
+}
+
+fieldset{
+    border-radius: 20px;
+    background-color: white;
+}
+
+input {
+    border-width: 5px;
+    border-style: inset;
+    padding: 5px;
+    border-radius: 20px;
 }
