@@ -8,7 +8,7 @@ function weatherReceived(response) {
     var temp = firstResult.temp
     var text = firstResult.text
 
-    var x = ('The temperature is ' + temp + '. Forecast calls for ' + text + ' for today');
+    var x = ('The temperature is ' + temp + ' °F' + '. Forecast calls for ' + text + ' for today');
 
     document.getElementById('output').innerHTML = x;
 }
