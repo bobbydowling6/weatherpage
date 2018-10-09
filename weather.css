@@ -11,19 +11,20 @@ body {
 .container {
   width: auto;
   height: auto;
-  padding-right: 10%;
-  padding-left: 10%;
   margin: 0 auto;
   background-color: cover;
   color: black;
-  text-align: center;
+  text-align: left;
+  justify-content: space-between;
 }
 fieldset {
-  border-radius: 20px;
+  border-radius: auto;
   background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 input {
-  border-width: 5px;
+  border-width: auto;
   border-style: inset;
   padding: 5px;
   border-radius: 20px;
